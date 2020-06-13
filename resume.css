@@ -131,10 +131,11 @@ dd.clear {
  width: 30px;
  text-align: center;
  text-decoration: none;
+ color: black;
 }
 
 /* hover effect για icons  */
 .fa:hover {
- opacity: 0.7;
+ opacity: 0.5;
  border-bottom: none;
 }

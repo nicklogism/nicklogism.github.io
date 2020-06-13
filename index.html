@@ -1,0 +1,162 @@
+<!--
+ΕΡΓΑΣΙΑ ΣΤΑ ΠΛΑΙΣΙΑ ΕΞΕΤΑΣΤΙΚΗΣ ΤΟΥ ΙΕΚ ΑΚΜΗ (2019-2020)
+
+Καθηγητής: Nik.Kontop.
+Σπουδαστής: Nick Thom. Αθήνα(ΛΟΓΙΣΜ-B6)
+
+Η παρούσα ιστοσελίδα δημιουργήθηκε στα πλαίσια εργασίας για εκπαιδευτικό σκοπό.
+Όλα τα στοιχεία και γεγονότα είναι τυχαία δεν αντανακλούν καμία πραγματικότητα.
+Ονόματα/Εταιρίες/Λογισμικό κλπ που αναφέρονται είναι τυχαία και δεν επιλέχθηκαν
+με κάποιο σκοπό.
+
+Επιλογή εργασίας: 1 (Προσωπική Ιστοσελίδα)
+
+ΕΡΓΑΣΙΑ (Απαιτήσεις):
+Προσωπική Ιστοσελίδα
+α) Να περιέχει το βιογραφικό σας σημείωμα.
+β) Τα hobbies
+γ) Συμβατός ο κώδικας με φορητές συσκευές
+δ) Ένα αρχείο HTML + ένα αρχείο CSS
+
+Προαιρετικά
+ε) Να ανέβει η σελίδα σε Webserver (+bonus)
+-->
+
+
+<!DOCTYPE html PUBLIC>
+
+<html lang="el">
+
+<head>
+     <meta content="text/html; charset=utf-8"/>
+
+     <title>Nick Logism Resume</title>
+
+<!--Σύνδεση με αρχείο CSS-->
+     <link rel="stylesheet" type="text/css"
+     href="resume.css">
+   </link>
+
+<!--Σύνδεση με τα εικονίδια FontAwesome. Δεν είναι ανάγκη να τα έχουμε τοπικά-->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </link>
+
+
+</head>
+
+<body>
+
+    <div id="page-wrap">
+
+        <img src="images/neon-cube.jpg" alt="Photo of Neon Cub" id="pic" />
+
+        <div id="contact-info" class="vcard">
+
+
+            <h1>Nick Logism</h1>
+
+            <p>
+                Τηλ: <span class="tel">69x-xxx-xxxx</span><br />
+                Email: <a class="email" href="mailto:nicklogism@example">nicklogism@example.com</a>
+
+                <!-- Social Media icons-->
+                <a href="#" class="fa fa-facebook-square"></a>
+                <a href="#" class="fa fa-twitter-square"></a>
+            </p>
+        </div>
+        <!--div section με συγκεκριμένη μορφροποίηση στο id. Δες CSS αρχείο-->
+        <div id="objective">
+            <p>
+                Γεια χαρά. Είμαι ο Νίκος Θ. (κατά κόσμον Nick Logism). Είμαι Software
+                Developer σε C/C++ , Java και Python.
+                Το μεγάλο μου ατού είναι η επίλυση προβλημάτων και η αυτοματοποίηση
+                διεργασιών.<br>
+                Θα χαρώ να συνεργαστούμε και εφόσον αυτό γίνει να
+                είσαι σίγουρος ότι θα εκτινάξω την απόδοση της εταιρίας σου
+                στα ύψη!
+
+            </p>
+        </div>
+
+        <!--Κράτα τη σωστή στοίχιση-->
+        <div class="clear"></div>
+
+        <dl>
+            <dd class="clear"></dd>
+
+            <dt>Εκπαίδευση</dt>
+            <dd>
+                <h2>ΙΕΚ ΑΚΜΗ</h2>
+                <p><strong>Απόφοιτος:</strong> Τεχνικός Λογισμικού<br />
+                  <h2>ΜΗΤΡΟΠΟΛΙΤΙΚΟ ΚΟΛΛΕΓΙΟ</h2>
+                  <p><strong>BSc(Hons):</strong> Computer Science (University of East London)<br />
+            </dd>
+
+              <dd class="clear"></dd>
+
+            <dt>Ξένες Γλώσσες</dt>
+            <dd>
+            <p><strong>Αγγλικά:</strong> CPE <br />
+              <p><strong>Γερμανικά:</strong> Zertifikat (B1)<br />
+
+              </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Δεξιότητες</dt>
+            <dd>
+                <h2>Οργανωτικές/Γραφείου</h2>
+                <p>Διαχείριση εγγράφων γραφείου, Διαχείριση Βάσης Δεδομένων (MySQL), Υποστήριξη πελατών, Οργάνωση εκδηλώσεων αλλά και ταξιδίων</p>
+
+                <h2>Ηλεκτρονικών Υπολογιστών</h2>
+                <p>Microsoft Office (Word, Excel, PowerPoint κλπ), Adobe Photoshop \ Illustrator, Windows Administration, Linux sysAdmin</p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Εμπειρία</dt>
+            <dd>                <!--Εδώ χρησιμοποιώ το h2 span από τη CSS-->
+                <h2>Microsoft <span>Προϊστάμενος Ομάδας 2012-2015</span></h2>
+                <ul>
+                    <li>Εργάστηκα στη προώθηση προϊόντων σε Ελλάδα & Κύπρο</li>
+                    <li>Η ομάδα μου έκλεισε πάνω από 2000 τρύπες ασφαλείας στα Windows 10</li>
+                    <li>"Καθαρίσαμε" περί τα 200 bugs σε Office 365</li>
+                    <li>Powershell Coding</li>
+                </ul>
+
+                <h2>Canonical <span>Developer 2015-2019</span></h2>
+                <ul>
+                    <li>Bug Triaging</li>
+                    <li>Διαχείριση εκδόσεων του Ubuntu Linux</li>
+                    <li>Ubuntu Linux Kernel developer</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Χόμπυ</dt>
+            <dd>
+            <ul>
+              <li>Hacking(με τη καλή έννοια πάντα)</li>
+              <li>Καταδύσεις</li>
+              <li>Κυνήγι Θησαυρού</li>
+            </ul>
+          </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Συστάσεις</dt>
+            <dd>Διαθέσιμες εφόσον ζητηθούν</dd>
+
+            <dd class="clear"></dd>
+        </dl>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+
+</html>

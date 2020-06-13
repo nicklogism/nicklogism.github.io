@@ -1,2 +1,2 @@
 # nicklogism.github.io
-GitHub Pages for educational proposes
+GitHub Page for educational proposes

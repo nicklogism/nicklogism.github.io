@@ -9,7 +9,8 @@
 body {
   font: 16px Helvetica, Sans-Serif;
   line-height: 24px;
-  background-color: #d5e1df
+  /*background-color: #d5e1df*/
+  background: url(images/noise.jpg);
 }
 
 /*Styling για header τύπου 1*/
